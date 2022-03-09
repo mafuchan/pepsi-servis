@@ -14,9 +14,13 @@
 display: flex;
 flex-flow: row nowrap;
 list-style: none;
+}
 
+.logo {
+    width: 100px;
+    height: 100px;
 
-
+}
 
 
 
@@ -35,7 +39,7 @@ button {
  font-weight: 700px;
  color: beige;
  border-radius: 5px;
- background-color: blue; 
+ background-color: rgb(0, 101, 195); 
 }
 
 a { 
@@ -91,4 +95,6 @@ a {
 
 }
 
-
+.testimonial{
+    align-content: center;
+}
