@@ -22,10 +22,6 @@ list-style: none;
 
 }
 
-
-
-}
-
 li + li { 
     margin-left: 24px;
     list-style: none;
@@ -47,26 +43,36 @@ a {
 
 }
 
-.floatRight {
-   width: 50%;
-   float: right;
-
-
+.contentBox{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    border: 2px;
 
 }
+
 
 .floatLeft {
-    width: 50%;
-    float: left;
-
+    flex: 1;
+    margin-right: 20px;
 }
 
+
+
+.floatRight {
+    flex: 2;
+    border-color: darkgray;
+    border-style: dotted;
+    text-align: center;
+    font-weight: 700;
+    
+}
  
 .floatLeft img { 
-    width: 250px;
-    height: 250px;
-    
-
+    width: 200px;
+    height: 200px;
+    white-space: nowrap;
+    justify-content: space-between;
 }
  
 .crystal1 {
@@ -95,6 +101,38 @@ a {
 
 }
 
-.testimonial{
+.testimonial {
+    align-content: inherit;
+    padding: 10px;
+    margin: 5px;
+    border: 2px;
+    text-align: center;
     align-content: center;
+    
+
 }
+
+.testimonial img {
+    width: 100px;
+    height: 150px;
+
+}
+
+.bottomNav {
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+
+
+}
+
+.bottomNav ul {
+list-style: none;
+}
+footer { 
+    padding: 10px;
+    margin: 5px;
+    border-top: 15px;
+    border-color: darkgray;
+ }
