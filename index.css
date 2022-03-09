@@ -65,7 +65,6 @@ a {
     border-style: dotted;
     text-align: center;
     font-weight: 700;
-    
 }
  
 .floatLeft img { 
@@ -124,11 +123,11 @@ a {
  align-items: center;
 
 
-
 }
 
 .bottomNav ul {
 list-style: none;
+float: right;
 }
 footer { 
     padding: 10px;
@@ -136,3 +135,13 @@ footer {
     border-top: 15px;
     border-color: darkgray;
  }
+
+footer img{
+    width: 60px;
+    height: 60px;
+} 
+
+.socialAccounts {
+    align-items: right;
+    float: right;
+}
